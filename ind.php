@@ -104,7 +104,7 @@
         <p style="font-weight:bold ;font-size:20px">To participate fill the below details:</p>
         <?php 
         if($submit == true){
-            echo "<p style='font-size=18px; font-weight=bold'> Thanks for submitting your form We are happy to hav you on  board </p>";
+            echo "<p> Thanks for submitting your form We are happy to hav you on  board </p>";
             echo " <p> If you wish, You may fill another for a friend or family memeber :).";
         }
         ?>
