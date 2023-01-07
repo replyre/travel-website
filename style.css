@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fdd1aa;
+   
+}
+.container{
+    max-width:80vw;
+    background-color:#ff7700;
+    padding: 34px;
+    margin: auto;
+    background-image: url(img/flat-mountains.svg);
+    background-size:auto ;
+}
+
+.container h1,p{
+    text-align: center;
+    color:black;
+    -webkit-text-stroke: 0.5px red ;
+}
+
+.form{
+    background-color:#ff7700 ;
+    max-width:80vw;
+    padding: 34px;
+    margin: auto;
+    text-align: center;
+    background-size: cover;
+}
+
+input,textarea{
+     background-color: #fdd1aa;
+     font-size:large;
+     font-weight: bold;
+     color:#783c08;
+     -webkit-text-stroke: 0.5px #88460c;
+    width:80%;
+    /* display: block; */
+    /* margin:11px; */
+    margin: 11px auto ;
+    padding:20px;
+    border-radius: 20px;
+    border: 2px solid saddlebrown;
+    outline: none;
+
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button{
+  display:flex;
+
+}
+
+.btn,.rest {
+    background-color: #fdd1aa;
+    font-size: 48px;
+   padding:10px;
+   margin:20px;
+   border-radius: 20px;
+   border: 2px solid #783c08;
+   transition-duration: 0.4s;
+   color:#783c08;
+   cursor: pointer;
+   
+}
+
+.btn:hover,.rest:hover{
+    background-color: #ff7700;
+    color:rgb(249, 212, 164);
+    
+}

@@ -1,0 +1,10 @@
+This is a mini project made with Html CSS and PHP. 
+It stores data data of travellers collected through a form.
+
+to able to use the project.
+
+Install XAMPP server.
+Store the project in Htdocs.
+open the XAMPP controller and Start MySql, then click on Admin.
+Import SQL file (data.sql) to get access to database used in the project.
+Then start to fill the details of travellers.
